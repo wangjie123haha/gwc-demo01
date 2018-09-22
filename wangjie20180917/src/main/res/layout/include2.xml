@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+   <CheckBox
+       android:id="@+id/cb_03"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:id="@+id/my_image_view"
+       android:layout_width="90dp"
+       android:layout_height="90dp"
+       fresco:roundAsCircle="true"
+       fresco:placeholderImage="@mipmap/ic_launcher"
+       />
+   <TextView
+       android:id="@+id/price"
+       android:textSize="20sp"
+       android:text="price"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <com.example.wangjie20180917.widge.togglebutton
+       android:id="@+id/toggle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+</LinearLayout>
